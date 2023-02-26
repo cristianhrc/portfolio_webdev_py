@@ -24,7 +24,7 @@ def mail():
 
 def send_mail(name, email, message):
     my_email = 'cristianhrodriguezc@gmail.com'
-    sg = sendgrid.SendGridAPIClient(api_key=current_app.config['SENDGRID_KEY'])
+    sg = sendgrid.SendGridAPIClient(api_key=current_app.config['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'])
 
     from_email = Email(my_email)
     to_email = To(my_email, substitutions={
