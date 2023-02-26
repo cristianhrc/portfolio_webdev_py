@@ -5,7 +5,7 @@ def create_app():
 
     app.config.from_mapping(
         # SENDGRID_KEY = os.environ.get('SENDGRID_API_KEY'),
-        SENDGRID_KEY = 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
+        # SENDGRID_KEY = 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
     )
 
     from . import portfolio
