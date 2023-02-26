@@ -1,4 +1,4 @@
-venv/
+venv-portfolio/
 .env
 
 *.pyc
